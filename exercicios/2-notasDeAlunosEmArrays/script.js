@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notas dos Alunos</title>
-</head>
-<body>
-    <style>
-        h1 {
-            text-align: center;
-        }
-    </style>
-
-    <h1>Sistema de notas dos Alunos em Arrays ( escrito com document.write )</h1>
-
-    <script>
-        var notas = [7, 8.5, 6, 9, 5.5];
+var notas = [7, 8.5, 6, 9, 5.5];
 
         console.log(notas[0]);
         console.log(notas[4]);
@@ -38,6 +21,3 @@
         console.log(alunos[2] + ' => ' + notas[2]);
         console.log(alunos[3] + ' => ' + notas[3]);
         console.log(alunos[4] + ' => ' + notas[4]);
-    </script>
-</body>
-</html>

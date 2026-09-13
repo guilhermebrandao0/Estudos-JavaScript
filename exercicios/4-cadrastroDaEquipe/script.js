@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro da equipe</title>
-</head>
-<body>
-    <style>
-        h1 {
-            text-align: center;
-        }
-    </style>
-
-    <h1>Cadastro da equipe</h1>
-
-    <script>
-        var nomes = ["Guilherme", "Carlos", "Ana", "Pedro", "Marcos"];
+var nomes = ["Guilherme", "Carlos", "Ana", "Pedro", "Marcos"];
 
         var idades = [16, 21, 19, 25, 22];
 
@@ -38,8 +21,3 @@
         console.log(nomes[2] + ' => ' + idades[2] + ' => ' + cargos[2]);
         console.log(nomes[3] + ' => ' + idades[3] + ' => ' + cargos[3]);
         console.log(nomes[4] + ' => ' + idades[4] + ' => ' + cargos[4]);
-        
-        
-    </script>
-</body>
-</html>
